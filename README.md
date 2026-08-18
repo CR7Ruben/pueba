@@ -10,13 +10,9 @@ El sistema implementa un flujo completo de **ETL, análisis exploratorio, entren
 * **CANDIDATE** — Candidato a exoplaneta.
 * **FALSE POSITIVE** — Falso positivo.
 
-# Codificación
-*   **# 0 = False Positive** 
-*   **# 1 = Candidate** 
-*   **# 2 = Confirmed**
 ---
 
-# Objetivo del proyecto
+## Objetivo del proyecto
 
 Desarrollar un sistema capaz de utilizar características astronómicas y de observación para **clasificar automáticamente candidatos a exoplanetas**, facilitando el análisis de grandes volúmenes de información astronómica.
 
@@ -105,10 +101,13 @@ ExoPredict/
 │       └── 07_correlacion.png
 │
 ├── models/
-│   ├── exopredict_model.pkl
+│   ├── exopredict_model_balanceado.pkl
 │   ├── exopredict_model_optimizado.pkl
-│   ├── metricas_modelo.pkl
-│   └── metricas_modelo_optimizado.pkl
+│   ├── exopredict_model.pkl
+│   ├── metricas_modelo_balanceado.pkl
+│   ├── metricas_modelo_final.pkl
+│   ├── metricas_modelo_optimizado.pkl
+│   └── metricas_modelo.pkl
 │
 ├── src/
 │   ├── extraer_datos.py
@@ -123,6 +122,7 @@ ExoPredict/
 │   └── balancear_clases.py
 │
 ├── README.md
+├── app.py
 └── requirements.txt
 ```
 
