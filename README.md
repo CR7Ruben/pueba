@@ -13,10 +13,9 @@ El sistema implementa un flujo completo de **ETL, análisis exploratorio, entren
 # Codificación
 *   **# 0 = False Positive** 
 *   **# 1 = Candidate** 
-*   **# 2 = Confirmed** 
----
+*   **# 2 = Confirmed**
 
-## Objetivo del proyecto
+*   ## Objetivo del proyecto
 
 Desarrollar un sistema capaz de utilizar características astronómicas y de observación para **clasificar automáticamente candidatos a exoplanetas**, facilitando el análisis de grandes volúmenes de información astronómica.
 
