@@ -10,7 +10,7 @@ El sistema implementa un flujo completo de **ETL, análisis exploratorio, entren
 * **CANDIDATE** — Candidato a exoplaneta.
 * **FALSE POSITIVE** — Falso positivo.
 
-# Codificación
+## Codificación
 *   **# 0 = False Positive** 
 *   **# 1 = Candidate** 
 *   **# 2 = Confirmed**
